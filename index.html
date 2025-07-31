@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <title>Brenda Vázquez</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <nav class="nav">
+                
+                <button class="nav__toggle" id="toggleButton">
+                    <span class="icon-menu">☰</span>
+                </button>
+                
+    
+                <ul class="nav__list" id="navList">
+                    <li class="nav__item" data-modal="blog"><a href="#inicio">INICIO</a></li>                                        
+
+                    <!--<li class="nav__item nav__item--contacto" data-modal="recursos">
+                        <a href="#preparacion">Profesional</a>
+                    </li>-->
+
+                    <li><a class="nav__item" href="#" id="abrirModalPreparacion">COMPETENCIAS</a></li>
+
+                        <!-- MODAL -->
+                        <div id="modalPreparacion" class="modal">
+                            <div class="modal-contenido">
+                                <span class="cerrar" id="cerrarModalPreparacion">&times;</span>
+
+                                <section id="preparacion">
+
+                                    <div class="div__uno">
+                                        <div class="div__content">
+                                            <p style="margin-bottom: 40px;" class="p_titulo">COMPETENCIAS</p>
+
+                                            <div class="div__content_tx">
+                                                <div class="div__contacto">
+                                                    <p class="p_titulod"><b>CURSOS</b></p><br>
+                                                    <p class="p_titulod">
+                                                    PHP <br>
+                                                    Flutter <br>
+                                                    Dart <br>
+                                                    Python <br>
+                                                    Desarrollo web HTML y CSS <br>
+                                                    Base de datos
+                                                    </p><br><br>
+
+                                                    <p class="p_titulod"><b> HABILIDADES </b></p><br>
+                                                    <p class="p_titulod">
+                                                    Swift<br>
+                                                    Java <br>
+                                                    PHP <br>
+                                                    Python <br>
+                                                    Base de Datos
+                                                    </p>
+
+                                                </div>
+                                                <div class="div__encabezado">
+                                                    <p class="p_titulod"><b>COMPETENCIAS</b></p><br>
+                                                    <p class="p_titulod">
+                                                    ☙ Diseño y Desarrollo de aplicaciones móviles. <br><br>
+                                                    ☙ Sólidos conocimientos de lenguajes como Swift (para iOS) y Java (para Android). <br><br>
+                                                    ☙ Mantenimiento y actualizaciones <br><br>
+                                                    ☙ Optimización del rendimiento <br><br>
+                                                    ☙ Apoyo en consultas en base de datos <br><br>
+                                                    ☙ Conexión de API PHP/DATABASE <br><br>
+                                                    ☙ Desarrollo de sitio Web Responsivo
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </section>
+
+                            </div>
+                        </div>
+
+                    <li class="nav__item nav__item--contacto" data-modal="somos">
+                        <a href="#portafolio">PORTAFOLIO</a>
+                    </li>
+                    
+                    <li class="nav__item nav__item--contacto"><a href="#contacto">CONTACTO</a></li>
+                </ul>                
+                
+            </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <div class="div_inicio">
+                <div class="div__content_i">
+                    <div class="div__inicio">
+                        <!--<img class="img_perfil" src="/imagenes/bren.jpeg" alt="">-->
+                        <div class="inicio__tx">
+                            <p style="align-items: center;" class="p_titulo">BRENDA VÁZQUEZ</p>
+                            <p class="p_tituloC">Ingeniería en Nanotecnología</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="div_obj">
+                <div class="obj__content">
+
+                    <div class="obj__content_tx">
+                        <p style="color: white !important;" class="p_titulod"><b style="text-shadow: 0px 0px 10px rgba(0,0,0,0) !important;" class="p_subtitulo">OBJETIVO PROFESIONAL</b><br><br>
+                        Formar parte de una empresa en la que pueda crecer personal y profesionalmente. Desarrollar e implementar nuevas formas para el beneficio de la empresa, compartiendo mis conocimientos y apoyando a los involucrados para seguir mejorando y creciendo como equipo.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="portafolio">
+
+            <div class="div__uno">
+                <div class="div__content">
+
+                    <div class="dos__content_tx">
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+
+                                <p style="text-shadow: 0px 0px 10px rgba(0,0,0,0) !important;" class="p_subtitulo">Portafolio</p>
+
+                                <a style="text-decoration: none;" href="fincash.html#fincash" class="div__btn"><div class="div__btn_d">
+                                    <div class="div__contenido">
+                                        <img class="div_img" src="/imagenes/logoFincash.png" alt="">
+                                        <div class="div_tx">
+                                            <p class="p_general">FINCASH</p>
+                                            <p class="p_general">Aplicación Finaciera: Integración de servicios</p>
+                                        </div> 
+                                    </div>
+        
+                                    <div class="div__arrow">
+                                        <svg class="arrow" width="20" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="arrow" d="M20 12.0001H4M12.968 19.6601L19.54 13.0881C19.6839 12.9458 19.7982 12.7764 19.8762 12.5896C19.9542 12.4028 19.9943 12.2025 19.9943 12.0001C19.9943 11.7977 19.9542 11.5973 19.8762 11.4106C19.7982 11.2238 19.6839 11.0544 19.54 10.9121L12.968 4.34009" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                </div></a>
+
+                                <a style="text-decoration: none;" href="fincash.html#nominonQR" class="div__btn"><div style="height: auto; width: 100%;">
+                                    <div class="div__contenido">
+                                        <img class="div_img" src="/imagenes/qrNominon.png" alt="">
+                                        <div class="div_tx">
+                                            <p class="p_general">QR NOMINON</p>
+                                            <p class="p_general">Escaner de código QR para acceso a sitio web</p>
+                                        </div> 
+                                    </div>
+        
+                                    <div class="div__arrow">
+                                        <svg class="arrow" width="20" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="arrow" d="M20 12.0001H4M12.968 19.6601L19.54 13.0881C19.6839 12.9458 19.7982 12.7764 19.8762 12.5896C19.9542 12.4028 19.9943 12.2025 19.9943 12.0001C19.9943 11.7977 19.9542 11.5973 19.8762 11.4106C19.7982 11.2238 19.6839 11.0544 19.54 10.9121L12.968 4.34009" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                </div></a>
+        
+                                <a style="text-decoration: none;" href="fincash.html#fincashPlus" class="div__btn"><div style="height: auto; width: 100%;">
+                                    <div class="div__contenido">
+                                        <img class="div_img" src="/imagenes/logoPlus.png" >
+                                        <div class="div_tx">
+                                            <p class="p_general">FINCASH PLUS</p>
+                                            <p class="p_general">Aplicación Finaciera</p>
+                                        </div> 
+                                    </div>
+        
+                                    <div class="div__arrow">
+                                        <svg class="arrow" width="20" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="arrow" d="M20 12.0001H4M12.968 19.6601L19.54 13.0881C19.6839 12.9458 19.7982 12.7764 19.8762 12.5896C19.9542 12.4028 19.9943 12.2025 19.9943 12.0001C19.9943 11.7977 19.9542 11.5973 19.8762 11.4106C19.7982 11.2238 19.6839 11.0544 19.54 10.9121L12.968 4.34009" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                </div></a>
+        
+                                <a style="text-decoration: none;" href="fincash.html#transactGate" class="div__btn"><div style="height: auto; width: 100%;">
+                                    <div class="div__contenido">
+                                        <img  class="div_img" src="/imagenes/logoTransact.png" alt="">
+                                        <div class="div_tx">
+                                            <p class="p_general">TRANSACT GATE</p>
+                                            <p class="p_general">Aplicación financiera privada</p>
+                                        </div> 
+                                    </div>
+        
+                                    <div class="div__arrow">
+                                        <svg class="arrow" width="20" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="arrow" d="M20 12.0001H4M12.968 19.6601L19.54 13.0881C19.6839 12.9458 19.7982 12.7764 19.8762 12.5896C19.9542 12.4028 19.9943 12.2025 19.9943 12.0001C19.9943 11.7977 19.9542 11.5973 19.8762 11.4106C19.7982 11.2238 19.6839 11.0544 19.54 10.9121L12.968 4.34009" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                </div></a>
+        
+                                <a style="text-decoration: none;" href="fincash.html#transactGateAdmin" class="div__btn"><div style="height: auto; width: 100%;">
+                                    <div class="div__contenido">
+                                        <img class="div_img" src="/imagenes/logoTransact.png" alt="">
+                                        <div class="div_tx">
+                                            <p class="p_general">TRANSACT GATE ADMINISTRADOR</p>
+                                            <p class="p_general">Aplicación Administrador</p>
+                                        </div> 
+                                    </div>
+        
+                                    <div class="div__arrow">
+                                        <svg class="arrow" width="20" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="arrow" d="M20 12.0001H4M12.968 19.6601L19.54 13.0881C19.6839 12.9458 19.7982 12.7764 19.8762 12.5896C19.9542 12.4028 19.9943 12.2025 19.9943 12.0001C19.9943 11.7977 19.9542 11.5973 19.8762 11.4106C19.7982 11.2238 19.6839 11.0544 19.54 10.9121L12.968 4.34009" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                </div></a>
+
+
+        
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contacto">
+            <div class="div__cont">
+                <div class="cont__content">
+                    <div class="cont__content_tx">
+                        <div style="width: 600px;">
+                            <p style="text-shadow: 0px 0px 10px rgba(0,0,0,0) !important; margin-bottom: 20px !important;" class="p_subtitulo"><b>Contacto</p>
+                            <p style="color: white !important;" class="p_titulod">Correo: brendavazquez826@gmail.com</p> <br>
+                            <p style="color: white !important;" class="p_titulod">Ubicación: Querétaro, Corregidora</p>
+
+                        </div>
+                        <!--<div class="div_redes">
+                            <img style="width: 30px; height: 30px;" src="/imagenes/pngwing.com.png" alt="">
+                            <p style="color: white !important;" class="p_titulod">Brenda Vázquez</p>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="doc.js"></script>
+</html>
