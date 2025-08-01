@@ -75,3 +75,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+
+document.getElementById("mailLink").addEventListener("click", function() {
+  window.location.href = this.getAttribute("data-mailto");
+});
