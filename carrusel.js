@@ -12,7 +12,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Cerrar el menú al hacer clic en un enlace
   document.querySelectorAll(".nav__item a").forEach(link => {
-    link.addEventListener("click", () => {
+    link.addEventListener("click", (e) => {
+      // Si el enlace es el que abre el modal, no cierres el menú aún
+      if (link.id === "abrirModalPreparacion") return;
+  
       navList.classList.remove("active");
     });
   });
@@ -76,7 +79,3 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
-document.getElementById("mailLink").addEventListener("click", function() {
-  window.location.href = this.getAttribute("data-mailto");
-});
